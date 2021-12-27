@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "formulahendry.auto-rename-tag",
+    "graphql.vscode-graphql",
+    "arcanis.vscode-zipfs",
+    "mgmcdermott.vscode-language-babel",
+    "aaron-bond.better-comments",
+    "oouo-diogo-perdigao.docthis",
+    "cschlosser.doxdocgen",
+    "eamodio.gitlens"
+  ]
+}

@@ -1,0 +1,23 @@
+.DS_Store
+node_modules/
+yarn-error.log
+*.hprof
+.vercel
+.env.local
+.env
+.expo
+extra.config.js
+build/
+
+.next
+NOTES.md
+# see https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+.pnp.*
+.yarn/*
+.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
