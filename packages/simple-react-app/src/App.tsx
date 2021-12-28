@@ -18,9 +18,15 @@ function App() {
         >
           Learn React
         </a>
+        <button onClick={()=> {
+            fetch("http://localhost:3001", {})
+            .then(res => res.json())
+            .then(data => console.log(data)
+            )
+        }}>get data</button>
       </header>
     </div>
   );
 }
-
+  
 export default App;

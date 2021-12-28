@@ -3824,6 +3824,25 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@ws/simple-react-app@workspace:packages/simple-react-app":
+  version: 0.0.0-use.local
+  resolution: "@ws/simple-react-app@workspace:packages/simple-react-app"
+  dependencies:
+    "@testing-library/jest-dom": ^5.16.1
+    "@testing-library/react": ^12.1.2
+    "@testing-library/user-event": ^13.5.0
+    "@types/jest": ^27.0.3
+    "@types/node": ^16.11.17
+    "@types/react": ^17.0.38
+    "@types/react-dom": ^17.0.11
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    react-scripts: 5.0.0
+    typescript: ^4.5.4
+    web-vitals: ^2.1.2
+  languageName: unknown
+  linkType: soft
+
 "@xtuc/ieee754@npm:^1.2.0":
   version: 1.2.0
   resolution: "@xtuc/ieee754@npm:1.2.0"
@@ -13431,25 +13450,6 @@ __metadata:
   checksum: b819ac81ba757af559dad0804233ae31bf6f054591cd8a671e9cbcf09f21c72ec3076fe87d1e04861f5b33b47d63f0694b568de99c99cd733ee2060515beb6d5
   languageName: node
   linkType: hard
-
-"simple-react-app@workspace:packages/simple-react-app":
-  version: 0.0.0-use.local
-  resolution: "simple-react-app@workspace:packages/simple-react-app"
-  dependencies:
-    "@testing-library/jest-dom": ^5.16.1
-    "@testing-library/react": ^12.1.2
-    "@testing-library/user-event": ^13.5.0
-    "@types/jest": ^27.0.3
-    "@types/node": ^16.11.17
-    "@types/react": ^17.0.38
-    "@types/react-dom": ^17.0.11
-    react: ^17.0.2
-    react-dom: ^17.0.2
-    react-scripts: 5.0.0
-    typescript: ^4.5.4
-    web-vitals: ^2.1.2
-  languageName: unknown
-  linkType: soft
 
 "sisteransi@npm:^1.0.5":
   version: 1.0.5
