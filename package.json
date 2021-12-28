@@ -6,7 +6,8 @@
     "license": "MIT",
     "workspaces": {
         "packages": [
-            "packages/*"
+            "packages/*",
+            "simple-node-server"
         ]
     },
     "packageManager": "yarn@3.1.1",
