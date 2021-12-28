@@ -4,6 +4,10 @@
     "main": "index.ts",
     "private": true,
     "license": "MIT",
+    "scripts": {
+        "clean": "./scripts/clean.sh all",
+        "lint": "yarn workspace @ws/simple-react-app lint"
+    },
     "workspaces": {
         "packages": [
             "packages/*",
