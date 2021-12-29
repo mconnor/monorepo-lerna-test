@@ -6,7 +6,13 @@
     "license": "MIT",
     "scripts": {
         "clean": "./scripts/clean.sh all",
-        "lint": "yarn workspace @ws/simple-react-app lint"
+        "lint": "yarn workspace @ws/simple-react-app lint",
+        "build": "yarn workspace @ws/simple-react-app build",
+        "analyze": "yarn workspace @ws/simple-react-app analyze",
+
+
+        "start": "yarn workspace @ws/simple-react-app start",
+        "server": "yarn workspace @ws/simple-node-server start"
     },
     "workspaces": {
         "packages": [
