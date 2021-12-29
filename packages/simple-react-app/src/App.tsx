@@ -18,6 +18,11 @@ function App() {
              
                 <button onClick={() => {
 
+
+
+
+
+
                     fetch("http://localhost:3001/data")
                         .then(res => res.json())
                         .then((data: QueryPayload) => setMsg(data.foo))
