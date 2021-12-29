@@ -1,27 +1,25 @@
 {
-    "name": "lerna-test",
-    "version": "0.0.1",
-    "main": "index.ts",
-    "private": true,
-    "license": "MIT",
-    "scripts": {
-        "clean": "./scripts/clean.sh all",
-        "lint": "yarn workspace @ws/simple-react-app lint",
-        "build": "yarn workspace @ws/simple-react-app build",
-        "analyze": "yarn workspace @ws/simple-react-app analyze",
-
-
-        "start": "yarn workspace @ws/simple-react-app start",
-        "server": "yarn workspace @ws/simple-node-server start"
-    },
-    "workspaces": {
-        "packages": [
-            "packages/*",
-            "simple-node-server"
-        ]
-    },
-    "packageManager": "yarn@3.1.1",
-    "devDependencies": {
-        "lerna": "^4.0.0"
-    }
+  "name": "lerna-test",
+  "version": "0.0.1",
+  "main": "index.ts",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "clean": "./scripts/clean.sh all",
+    "lint": "yarn workspace @ws/simple-react-app lint",
+    "build": "yarn workspace @ws/simple-react-app build",
+    "analyze": "yarn workspace @ws/simple-react-app analyze",
+    "start": "yarn workspace @ws/simple-react-app start",
+    "server": "yarn workspace @ws/simple-node-server start"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "simple-node-server"
+    ]
+  },
+  "packageManager": "yarn@3.1.1",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
 }
